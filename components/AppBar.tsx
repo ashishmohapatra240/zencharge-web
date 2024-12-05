@@ -27,7 +27,10 @@ const AppBar = () => {
             >
               About Us
             </Link>
-            <Link href="/store" className="text-gray-800 hover:text-gray-600">
+            <Link
+              href="/our-model"
+              className="text-gray-800 hover:text-gray-600"
+            >
               Our Model
             </Link>
             <Link
@@ -43,7 +46,12 @@ const AppBar = () => {
               Careers
             </Link>
           </nav>
-          <CustomButton color="#5833F1" textColor="#FFFFFF" text="Sign Up" />
+          <CustomButton
+            color="bg-[#2D3E50]"
+            textColor="text-white"
+            text="Get Started"
+            className="hover:opacity-90"
+          />
 
           <div className="flex md:hidden">
             <button
