@@ -1,19 +1,20 @@
-import FifthSection from "@/components/FifthSection";
-import FourthSection from "@/components/FourthSection";
+import ContactSection from "@/components/ContactSection";
+import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
-import SecondSection from "@/components/SecondSection";
-import SixthSection from "@/components/SixthSection";
-import ThirdSection from "@/components/ThirdSection";
+import ImpactSection from "@/components/ImpactSection";
+import NetworkSection from "@/components/NetworkSection";
+import ServicesSection from "@/components/ServicesSection";
+
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <HeroSection />
-      <SecondSection />
-      <ThirdSection />
-      <FourthSection />
-      <FifthSection />
-      <SixthSection />
-    </div>
+      <FeaturesSection />
+      <ServicesSection />
+      <NetworkSection />
+      <ImpactSection />
+      <ContactSection />
+    </main>
   );
 }
