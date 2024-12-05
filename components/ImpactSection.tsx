@@ -1,6 +1,6 @@
 import Card from "./common/ThirdSectionCard";
 
-const FifthSection = () => {
+const ImpactSection = () => {
   return (
     <div className="w-full px-6 py-20 bg-gray-100 flex flex-col items-center">
       <div className="w-full max-w-[1495px] flex flex-col gap-16">
@@ -27,4 +27,4 @@ const FifthSection = () => {
   );
 };
 
-export default FifthSection;
+export default ImpactSection;

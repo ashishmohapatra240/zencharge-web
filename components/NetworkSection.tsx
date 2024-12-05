@@ -1,6 +1,6 @@
 import React from "react";
 
-const FourthSection = () => {
+const NetworkSection = () => {
   return (
     <div className="w-full flex flex-col items-center gap-32 px-6 py-20 bg-gray-100">
       {/* Main Content with Image and Text */}
@@ -45,4 +45,4 @@ const FourthSection = () => {
   );
 };
 
-export default FourthSection;
+export default NetworkSection;

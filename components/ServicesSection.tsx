@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./common/ThirdSectionCard";
 
-const ThirdSection = () => {
+const ServicesSection = () => {
   return (
     <div className="w-full px-6 py-20 bg-gray-100 flex flex-col items-center">
       <div className="w-full max-w-[1495px] flex flex-col gap-16">
@@ -42,4 +42,4 @@ const ThirdSection = () => {
   );
 };
 
-export default ThirdSection;
+export default ServicesSection;
