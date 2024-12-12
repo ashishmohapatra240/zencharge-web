@@ -8,7 +8,7 @@ export default function FindUsPage() {
     <main className="min-h-screen">
       <FindUsHero />
       <FindUsMap />
-      <div className="grid lg:grid-cols-2 gap-16 px-32 py-24">
+      <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 px-4 md:px-8 lg:px-32 py-12 lg:py-24">
         <FindUsFAQ />
         <ContactSection />
       </div>
