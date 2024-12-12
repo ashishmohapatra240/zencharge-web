@@ -1,4 +1,5 @@
 import Container from "@/app/components/ui/Container";
+import Image from "next/image";
 
 const positions = [
   {
@@ -29,21 +30,24 @@ const positions = [
 
 export default function CareerOpportunities() {
   return (
-    <div className="bg-white py-24">
+    <div className="bg-white py-16 md:py-24">
       <Container>
-        <div className="grid lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {positions.map((position, index) => (
-            <div key={index} className="flex flex-col gap-6">
-              <img
-                src={position.image}
-                alt={position.title}
-                className="w-full h-[503px] object-cover rounded"
-              />
-              <div className="text-center space-y-6">
-                <h3 className="text-3xl font-bold leading-10">
+            <div key={index} className="flex flex-col gap-4 md:gap-6">
+              <div className="relative w-full h-[300px] md:h-[503px]">
+                <Image
+                  src={position.image}
+                  alt={position.title}
+                  fill
+                  className="object-cover rounded"
+                />
+              </div>
+              <div className="text-center space-y-4 md:space-y-6">
+                <h3 className="text-2xl md:text-3xl font-bold leading-tight">
                   {position.title}
                 </h3>
-                <p className="text-lg font-light leading-7">
+                <p className="text-base md:text-lg font-light leading-relaxed">
                   {position.description}
                 </p>
               </div>
