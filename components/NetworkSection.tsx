@@ -1,45 +1,85 @@
 import React from "react";
+import Image from "next/image";
 
 const NetworkSection = () => {
   return (
-    <div className="w-full flex flex-col items-center gap-32 px-6 py-20 bg-gray-100">
-      {/* Main Content with Image and Text */}
-      <div className="w-full max-w-[1436px] flex flex-col lg:flex-row items-center justify-center gap-10">
-        {/* Image */}
-        <img
-          src="/images/ExploreOurInnovative.png"
-          alt="Accelerating Clean Transportation"
-          className="w-full max-w-[692px] h-auto rounded-lg"
-        />
+    <div className="w-full py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="flex flex-col gap-20">
+          {/* First Section */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative w-full aspect-[4/3]">
+              <Image
+                src="/images/ExploreOurInnovative.png"
+                alt="Charging Network"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="flex flex-col gap-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] leading-tight">
+                Accelerating the Future of Clean Transportation in India
+              </h2>
+              <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                ZenCharge is committed to making electric vehicle charging
+                effortless and convenient. Our solutions blend sustainability
+                with comfort, ensuring a seamless experience for every traveler.
+              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Convenient locations along major highways</li>
+                <li>• Unique combination of dining and charging</li>
+                <li>• Support for sustainable practices</li>
+              </ul>
+            </div>
+          </div>
 
-        {/* Text Content */}
-        <div className="flex flex-col items-start gap-10">
-          <h2 className="text-[#1E1E1E] text-4xl font-bold font-montserrat leading-snug">
-            Accelerating the Future of <br /> Clean Transportation in <br />{" "}
-            India
-          </h2>
-          <p className="text-[#1E1E1E] text-base font-normal leading-[32px] font-montserrat">
-            ZenCharge is committed to making electric vehicle charging
-            effortless and convenient. Our solutions blend sustainability with
-            comfort, ensuring a seamless experience for every traveler.
-            Convenient locations along major highways. Unique combination of
-            dining and charging. Support for sustainable practices.
-          </p>
+          {/* Second Section */}
+          <div className="flex flex-col gap-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1E1E1E] leading-tight">
+              Explore Our Innovative FeVL & Evaraa Models
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "FeVL Charging Stations",
+                  description:
+                    "Fast, efficient stops at strategic points along highways, offering quick charging and essential amenities.",
+                  image: "/images/FeVLChargingStations.png",
+                },
+                {
+                  title: "Evaraa Premium Dining",
+                  description:
+                    "Luxury dining spaces integrated with charging facilities, perfect for urban professionals.",
+                  image: "/images/EvaraaPremiumDining.png",
+                },
+                {
+                  title: "FeVL Roadside Cafe",
+                  description:
+                    "Experience the convenience of clean restrooms, quality food, and efficient charging in one location.",
+                  image: "/images/FeVLRoadsideCafe.png",
+                },
+              ].map((item, index) => (
+                <div key={index} className="flex flex-col gap-6">
+                  <div className="relative w-full aspect-[4/3]">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      className="object-cover rounded-lg"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#1E1E1E]">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600">{item.description}</p>
+                  <button className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
+                    Learn More
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-      </div>
-
-      {/* Bottom Section with Two Columns */}
-      <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-10">
-        <h2 className="text-[#1E1E1E] text-4xl font-bold font-montserrat leading-snug text-center lg:text-left">
-          Explore Our Innovative FeVL & Evaraa Models
-        </h2>
-        <p className="text-[#1E1E1E] text-base font-normal leading-[32px] font-montserrat text-center lg:text-left">
-          ZenCharge is revolutionizing the EV charging experience with two
-          unique models. The FeVL Model offers a convenient stop along highways,
-          integrating food, EV charging, and clean restrooms. The Evaraa Model
-          provides a premium dining experience with urban EV charging, catering
-          to professionals and eco-conscious diners.
-        </p>
       </div>
     </div>
   );
