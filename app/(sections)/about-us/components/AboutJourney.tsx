@@ -1,4 +1,5 @@
 import Container from "@/app/components/ui/Container";
+import Image from "next/image";
 
 const journeyStats = [
   {
@@ -23,17 +24,18 @@ export default function AboutJourney() {
   return (
     <section className="py-24 bg-gray-50">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[600px]">
-            <img
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div className="relative w-full h-[300px] md:h-[600px]">
+            <Image
               src="/images/about/charging-station.png"
               alt="ZenCharge Charging Station"
-              className="object-cover rounded-lg w-full h-full"
+              fill
+              className="object-cover rounded-lg"
             />
           </div>
           <div className="space-y-16">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-gray-900">
+              <h2 className="text-4xl font-bold text-gray-900 tracking-tight">
                 Our Journey to Sustainable Mobility
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
