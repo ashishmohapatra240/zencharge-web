@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Montserrat from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Set Montserrat as default font */
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Tan Pearl';
+    src: url('/fonts/tan-pearl.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}

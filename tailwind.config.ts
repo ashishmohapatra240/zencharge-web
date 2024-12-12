@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        tanpearl: ['Tan Pearl', 'serif'],
+      },
     },
   },
   plugins: [],
