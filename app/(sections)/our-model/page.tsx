@@ -7,9 +7,9 @@ export default function ModelsPage() {
   return (
     <main className="min-h-screen">
       <ModelHero />
+      <ClientTestimonials />
       <FeVLSection />
       <EvaraaSection />
-      <ClientTestimonials />
     </main>
   );
 }
