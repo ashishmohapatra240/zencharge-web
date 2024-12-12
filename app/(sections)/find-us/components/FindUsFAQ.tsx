@@ -38,7 +38,7 @@ export default function FindUsFAQ() {
           Explore our frequently asked questions to learn more about our EV
           charging services and how we can enhance your travel experience.
         </p>
-        <button className="px-4 md:px-6 py-2.5 md:py-3 text-[#2D3E50] bg-white shadow-sm rounded text-sm md:text-base">
+        <button className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
           Learn More
         </button>
       </div>
