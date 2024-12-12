@@ -2,28 +2,29 @@ import Container from "@/app/components/ui/Container";
 
 export default function FranchiseHero() {
   return (
-    <div className="bg-black text-white py-16">
+    <div className="bg-black text-white py-16 pt-40">
       <Container>
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h1 className="text-[49px] font-bold leading-tight">
-              Discover the Benefits of<br />
-              Franchising with<br />
-              ZenCharge
+              Discover the Benefits of Franchising with ZenCharge
             </h1>
           </div>
           <div className="space-y-8">
             <p className="text-base">
-              Join ZenCharge and be part of a sustainable future. Our FoCo and CoCo models offer
-              unparalleled support and training, ensuring your success in the EV charging industry.
-              Experience the growth potential with ZenCharge&apos;s innovative solutions
+              Join ZenCharge and be part of a sustainable future. Our FoCo and
+              CoCo models offer unparalleled support and training, ensuring your
+              success in the EV charging industry. Experience the growth
+              potential with ZenCharge&apos;s innovative solutions
             </p>
             <div className="grid grid-cols-2 gap-8">
               <div className="space-y-4">
-                <h2 className="text-[35px] font-bold">Comprehensive<br />Training</h2>
+                <h2 className="text-[35px] font-bold">
+                  Comprehensive Training
+                </h2>
                 <p className="text-base">
-                  Receive extensive training to ensure your<br />
-                  franchise&apos;s success.
+                  Receive extensive training to ensure your franchise&apos;s
+                  success.
                 </p>
               </div>
               <div className="space-y-4">
@@ -38,4 +39,4 @@ export default function FranchiseHero() {
       </Container>
     </div>
   );
-} 
+}
