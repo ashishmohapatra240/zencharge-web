@@ -28,28 +28,28 @@ const cocoModel = [
 
 export default function FranchiseDetails() {
   return (
-    <div className="bg-[#2D3E50] text-white py-24">
+    <div className="bg-[#2D3E50] text-white py-16 md:py-24">
       <Container>
-        <div className="space-y-40">
+        <div className="space-y-20 md:space-y-32">
           {/* FoCo Model Section */}
-          <div className="space-y-16">
-            <div className="grid lg:grid-cols-2 gap-12">
-              <h2 className="text-[48px] font-bold">
+          <div className="space-y-12 md:space-y-16">
+            <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
+              <h2 className="text-3xl md:text-[48px] font-bold leading-tight">
                 FoCo Model: Franchise-Owned, Company-Operated Excellence
               </h2>
-              <p className="text-xl leading-relaxed tracking-wide">
+              <p className="text-lg md:text-xl leading-relaxed">
                 The FoCo model allows franchisees to own the cafes while the company manages operations. 
                 This ensures consistent quality, efficient service, and a uniform customer experience across 
                 all locations, enabling rapid expansion with strong brand control.
               </p>
             </div>
-            <div className="grid lg:grid-cols-2 gap-14">
+            <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
               {focoModel.map((model, index) => (
-                <div key={index} className="space-y-10">
-                  <h3 className="text-[36px] font-bold leading-tight">
+                <div key={index} className="space-y-4 md:space-y-6">
+                  <h3 className="text-2xl md:text-[36px] font-bold leading-tight">
                     {model.title}
                   </h3>
-                  <p className="text-lg leading-relaxed">
+                  <p className="text-base md:text-lg leading-relaxed">
                     {model.description}
                   </p>
                 </div>
@@ -58,25 +58,25 @@ export default function FranchiseDetails() {
           </div>
 
           {/* CoCo Model Section */}
-          <div className="space-y-24">
-            <div className="grid lg:grid-cols-2 gap-12">
-              <h2 className="text-[48px] font-bold">
+          <div className="space-y-12 md:space-y-16">
+            <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
+              <h2 className="text-3xl md:text-[48px] font-bold leading-tight">
                 CoCo Model: Company-Owned, Company-Operated Precision
               </h2>
-              <p className="text-xl leading-relaxed tracking-wide">
+              <p className="text-lg md:text-xl leading-relaxed">
                 In the CoCo model, the company retains full ownership and control of the cafes, 
                 ensuring unmatched quality, innovation, and operational excellence. These locations 
                 set the standard for the brand, showcasing its best offerings and serving as hubs 
                 for training and innovation.
               </p>
             </div>
-            <div className="grid lg:grid-cols-2 gap-14">
+            <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
               {cocoModel.map((model, index) => (
-                <div key={index} className="space-y-5">
-                  <h3 className="text-[36px] font-bold leading-tight">
+                <div key={index} className="space-y-4 md:space-y-6">
+                  <h3 className="text-2xl md:text-[36px] font-bold leading-tight">
                     {model.title}
                   </h3>
-                  <p className="text-lg leading-relaxed">
+                  <p className="text-base md:text-lg leading-relaxed">
                     {model.description}
                   </p>
                 </div>
