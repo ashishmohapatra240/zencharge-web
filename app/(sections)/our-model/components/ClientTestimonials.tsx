@@ -35,26 +35,33 @@ const testimonials = [
 
 export default function ClientTestimonials() {
   return (
-    <section className="py-12 md:py-[90px]">
+    <section className="py-12 lg:py-24">
       <Container>
-        <h2 className="text-center text-2xl md:text-[36px] font-bold font-montserrat mb-6 md:mb-[35px] tracking-tight">
+        <h2 className="text-2xl lg:text-[36px] font-bold font-montserrat mb-4 lg:mb-6 tracking-tight text-center">
           What Our Clients Say
         </h2>
-        <p className="text-center text-base md:text-[18px] font-montserrat mb-12 md:mb-[60px] tracking-tight">
-          Discover how ZenCharge is transforming the EV experience with our innovative models and exceptional service.
+        <p className="text-base lg:text-lg font-montserrat mb-12 lg:mb-16 tracking-tight text-center max-w-3xl mx-auto">
+          Discover how ZenCharge is transforming the EV experience with our innovative
+          models and exceptional service.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-[30px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="border p-6 md:p-[20px]">
-              <div className="text-xl md:text-[24px] mb-4 md:mb-[10px]">★★★★★</div>
-              <p className="text-sm md:text-[16px] mb-6 md:mb-[20px] tracking-tight">{testimonial.feedback}</p>
+            <div key={index} className="border border-gray-200 p-6 lg:p-8">
+              <div className="text-xl lg:text-2xl mb-4 text-yellow-400">★★★★★</div>
+              <p className="text-sm lg:text-base mb-6 tracking-tight min-h-[60px]">
+                {testimonial.feedback}
+              </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 md:w-[40px] md:h-[40px] bg-black rounded-full flex items-center justify-center text-white text-base md:text-[20px] mr-3 md:mr-[10px]">
-                  O
+                <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white text-base mr-3">
+                  {testimonial.name[0]}
                 </div>
                 <div>
-                  <div className="font-bold tracking-tight">{testimonial.name}</div>
-                  <div className="text-xs md:text-[14px] tracking-tight">{testimonial.title}</div>
+                  <div className="font-bold tracking-tight text-sm lg:text-base">
+                    {testimonial.name}
+                  </div>
+                  <div className="text-xs lg:text-sm tracking-tight text-gray-600">
+                    {testimonial.title}
+                  </div>
                 </div>
               </div>
             </div>
