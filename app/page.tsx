@@ -1,4 +1,4 @@
-import ContactSection from "@/components/ContactSection";
+// import ContactSection from "@/components/ContactSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
 import ImpactSection from "@/components/ImpactSection";
@@ -14,7 +14,7 @@ export default function Home() {
       <ServicesSection />
       <NetworkSection />
       <ImpactSection />
-      <ContactSection />
+      {/* <ContactSection /> */}  
     </main>
   );
 }
