@@ -15,7 +15,7 @@ const config: Config = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
-        tanpearl: ['Tan Pearl', 'serif'],
+        tanpearl: ['Tan-Pearl', 'var(--font-tanpearl)'],
       },
     },
   },

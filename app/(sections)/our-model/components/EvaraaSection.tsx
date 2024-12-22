@@ -20,7 +20,7 @@ export default function EvaraaSection() {
       <div className="relative h-[60vh] lg:h-screen">
         <div className="absolute inset-0 bg-black/50 z-10">
           <Container className="h-full flex flex-col items-center justify-center text-center">
-            <h1 className="text-[64px] lg:text-[10vw] font-tanpearl text-white mb-4 tracking-tight leading-none">
+            <h1 className="text-[64px] lg:text-[84px] font-tanpearl text-white mb-4 tracking-tight leading-none">
               Evaraa
             </h1>
             <p className="text-lg lg:text-xl text-white font-light font-montserrat mb-8 tracking-tight">
