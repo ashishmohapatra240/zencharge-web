@@ -38,7 +38,7 @@ const AppBar = () => {
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="/images/logo.png"
+                src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/logo.png"
                 width={140}
                 height={140}
                 alt="Logo"

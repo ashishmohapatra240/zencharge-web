@@ -6,21 +6,21 @@ const opportunities = [
     title: "Collaborative Work Environment",
     description:
       "At ZenCharge, we foster a collaborative and innovative work environment. Our team is passionate about sustainability and making a positive impact",
-    image: "/images/careers/collaborative.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/collaborative.png",
     link: "/our-models",
   },
   {
     title: "Innovative Charging Solutions",
     description:
       "Be part of a team that is transforming the EV charging landscape with our FeVL and Evaraa models, offering convenience and quality.",
-    image: "/images/careers/charging.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/charging.png",
     link: "/find-us",
   },
   {
     title: "Premium Dining Experience",
     description:
       "Join us in providing a unique dining and charging experience in urban areas, catering to eco-conscious professionals",
-    image: "/images/careers/dining.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/dining.png",
     link: "/our-models",
   },
 ];

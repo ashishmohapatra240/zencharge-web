@@ -10,7 +10,7 @@ const NetworkSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative w-full aspect-[4/3]">
               <Image
-                src="/images/ExploreOurInnovative.png"
+                src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/ExploreOurInnovative.png"
                 alt="Charging Network"
                 fill
                 className="object-cover rounded-lg"
@@ -44,21 +44,21 @@ const NetworkSection = () => {
                   title: "FeVL Charging Stations",
                   description:
                     "Fast, efficient stops at strategic points along highways, offering quick charging and essential amenities.",
-                  image: "/images/FeVLChargingStations.png",
+                  image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/FeVLChargingStations.png",
                   link: "/our-models",
                 },
                 {
                   title: "Evaraa Premium Dining",
                   description:
                     "Luxury dining spaces integrated with charging facilities, perfect for urban professionals.",
-                  image: "/images/EvaraaPremiumDining.png",
+                  image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/EvaraaPremiumDining.png",
                   link: "/our-models",
                 },
                 {
                   title: "FeVL Roadside Cafe",
                   description:
                     "Experience the convenience of clean restrooms, quality food, and efficient charging in one location.",
-                  image: "/images/FeVLRoadsideCafe.png",
+                  image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/FeVLRoadsideCafe.png",
                   link: "/our-models",
                 },
               ].map((item, index) => (

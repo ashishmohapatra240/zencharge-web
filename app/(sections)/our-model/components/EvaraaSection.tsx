@@ -32,7 +32,7 @@ export default function EvaraaSection() {
           </Container>
         </div>
         <Image
-          src="/images/evaraa-bg.png"
+          src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/evaraa-bg.png"
           alt="Evaraa Dining"
           fill
           className="object-cover"
@@ -48,7 +48,7 @@ export default function EvaraaSection() {
               <div className="w-[200px] lg:w-[240px] h-[250px] lg:h-[300px] rounded-t-full overflow-hidden">
                 <div className="relative w-full h-full">
                   <Image
-                    src={`/images/evaraa-gallery-${num}.png`}
+                    src={`https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/evaraa-gallery-${num}.png`}
                     alt={`Gallery ${num}`}
                     fill
                     className="object-cover"

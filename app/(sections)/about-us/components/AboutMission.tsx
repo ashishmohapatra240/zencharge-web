@@ -19,7 +19,7 @@ export default function AboutMission() {
           </div>
           <div className="relative h-[600px]">
             <Image
-              src="/images/about/mission.jpg"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/mission.jpg"
               alt="EV Charging Station"
               className="object-cover rounded-lg w-full h-full"
             />

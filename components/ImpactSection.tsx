@@ -27,7 +27,7 @@ const ImpactSection = () => {
           <div className="w-full bg-white rounded-lg p-8">
             <div className="relative w-full aspect-[16/9]">
               <Image
-                src="/images/OurEnvironment.png"
+                src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/OurEnvironment.png"
                 alt="Environmental Impact Statistics"
                 fill
                 className="object-contain"

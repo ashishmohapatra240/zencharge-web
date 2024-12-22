@@ -26,21 +26,21 @@ const ServicesSection = () => {
                 title: "Nationwide Charging Network",
                 description:
                   "Our extensive network of charging stations ensures you can travel across the country with ease.",
-                image: "/images/NationwideChargingNetwork.png",
+                image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/NationwideChargingNetwork.png",
                 link: "/find-us",
               },
               {
                 title: "Sustainable Mobility",
                 description:
                   "Committed to reducing carbon emissions by making EV adoption accessible.",
-                image: "/images/SustainableMobility.png",
+                image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/SustainableMobility.png",
                 link: "/franchise",
               },
               {
                 title: "Premium Dining Experience",
                 description:
                   "Unique dining and charging experience for eco-conscious urban professionals.",
-                image: "/images/PremiumDiningExperience.png",
+                image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/PremiumDiningExperience.png",
                 link: "/our-modes",
               },
             ].map((card, index) => (

@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/images/HeroImage.png"
+          src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/HeroImage.png"
           alt="EV Charging Station"
           fill
           priority

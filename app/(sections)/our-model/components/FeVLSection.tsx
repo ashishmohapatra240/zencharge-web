@@ -35,7 +35,7 @@ export default function FeVLSection() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center mb-16 lg:mb-32">
           <div className="relative w-full aspect-square max-w-[600px] mx-auto">
             <Image
-              src="/images/models/machine.png"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/models/machine.png"
               alt="FeVL Station"
               fill
               className="object-contain"

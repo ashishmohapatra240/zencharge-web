@@ -27,7 +27,7 @@ export default function AboutJourney() {
         <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
           <div className="relative w-full h-[300px] md:h-[600px]">
             <Image
-              src="/images/about/charging-station.png"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/charging-station.png"
               alt="ZenCharge Charging Station"
               fill
               className="object-cover rounded-lg"

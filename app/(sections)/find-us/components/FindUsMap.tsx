@@ -7,7 +7,7 @@ export default function FindUsMap() {
       <Container>
         <div className="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg relative">
           <Image
-            src="/images/find-us/maps.png"
+            src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/find-us/maps.png"
             alt="ZenCharge Locations Map"
             fill
             className="object-cover"

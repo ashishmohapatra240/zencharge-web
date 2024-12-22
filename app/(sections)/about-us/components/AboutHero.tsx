@@ -56,7 +56,7 @@ export default function AboutHero() {
           </div>
           <div className="relative w-full h-[250px] sm:h-[300px] md:h-[600px] mt-6 lg:mt-0">
             <Image
-              src="/images/about/hero.png"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/Hero.png"
               alt="EV Charging Station"
               fill
               className="object-cover rounded-lg"

@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex-shrink-0">
             <Image
-              src="/images/logo.png"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/logo.png"
               alt="ZenCharge Logo"
               width={208}
               height={60}

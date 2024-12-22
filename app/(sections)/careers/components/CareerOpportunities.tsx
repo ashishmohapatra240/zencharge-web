@@ -6,25 +6,25 @@ const positions = [
     title: "EV Charging Station Manager",
     description:
       "Responsible for overseeing operations at our FeVL stations, ensuring smooth service and customer satisfaction",
-    image: "/images/careers/station-manager.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/station-manager.png",
   },
   {
     title: "Urban Dining Experience Lead",
     description:
       "Lead the Evaraa dining experience, focusing on premium service and sustainable practices in urban settings.",
-    image: "/images/careers/dining-lead.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/dining-lead.png",
   },
   {
     title: "Sustainability Program Coordinator",
     description:
       "Coordinate initiatives to enhance ZenCharge's sustainability efforts, working closely with our green energy partners.",
-    image: "/images/careers/sustainability.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/sustainability.png",
   },
   {
     title: "Franchise Development Specialist",
     description:
       "Drive the expansion of ZenCharge's franchise network, identifying new opportunities and supporting partners.",
-    image: "/images/careers/franchise.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/careers/franchise.png",
   },
 ];
 

@@ -7,7 +7,7 @@ import Container from "@/app/components/ui/Container";
 //     position: "CEO",
 //     description:
 //       "Aarav leads ZenCharge with a vision for sustainable mobility and innovative solutions.",
-//     image: "/images/team/aarav.png",
+//     image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/team/aarav.png",
 //     socialLinks: {
 //       twitter: "#",
 //       linkedin: "#",
@@ -18,7 +18,7 @@ import Container from "@/app/components/ui/Container";
 //     position: "CEO",
 //     description:
 //       "Aarav leads ZenCharge with a vision for sustainable mobility and innovative solutions.",
-//     image: "/images/team/aarav.png",
+//     image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/team/aarav.png",
 //     socialLinks: {
 //       twitter: "#",
 //       linkedin: "#",
@@ -29,7 +29,7 @@ import Container from "@/app/components/ui/Container";
 //     position: "CEO",
 //     description:
 //       "Aarav leads ZenCharge with a vision for sustainable mobility and innovative solutions.",
-//     image: "/images/team/aarav.png",
+//     image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/team/aarav.png",
 //     socialLinks: {
 //       twitter: "#",
 //       linkedin: "#",

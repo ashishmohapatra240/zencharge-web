@@ -6,19 +6,19 @@ const commitmentCards = [
     title: "Solar-Powered Charging Stations",
     description:
       "Our charging stations utilizes solar energy, reducing reliance on fossil fuels and promoting renewable energy. This initiative helps decrease carbon emission significantly.",
-    image: "/images/about/solar-charging.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/solar-charging.png",
   },
   {
     title: "Collaborative Eco-Friendly Partnerships",
     description:
       "We partner with like-minded organizations to enhance our sustainability effort. Together, we aim to create a network of eco-consciousness businesses.",
-    image: "/images/about/partnerships.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/partnerships.png",
   },
   {
     title: "Vision for Sustainable Urban Mobility",
     description:
       "Our goal is to install 1000 chargers by 2025, transforming urban mobility and making EV charging accessible to all.",
-    image: "/images/about/urban-mobility.png",
+    image: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/about/urban-mobility.png",
   },
 ];
 

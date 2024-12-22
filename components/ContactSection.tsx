@@ -23,7 +23,7 @@
 //         {/* Image Section */}
 //         <div className="w-full aspect-[16/9] relative rounded-lg overflow-hidden">
 //           <img
-//             src="/images/OurEnvironment.png"
+//             src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/OurEnvironment.png"
 //             alt="Environmental Commitment"
 //             className="w-full h-full object-cover"
 //           />

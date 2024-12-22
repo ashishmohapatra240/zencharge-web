@@ -44,7 +44,7 @@ export default function FranchiseModels() {
         <Container>
           <div className="max-w-[600px] mx-auto relative h-[300px] md:h-[600px]">
             <Image
-              src="/images/models/machine.png"
+              src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/zencharge-web/public/images/models/machine.png"
               alt="EV Charging Station"
               fill
               priority
