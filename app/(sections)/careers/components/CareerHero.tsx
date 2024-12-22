@@ -7,18 +7,21 @@ const opportunities = [
     description:
       "At ZenCharge, we foster a collaborative and innovative work environment. Our team is passionate about sustainability and making a positive impact",
     image: "/images/careers/collaborative.png",
+    link: "/our-models",
   },
   {
     title: "Innovative Charging Solutions",
     description:
       "Be part of a team that is transforming the EV charging landscape with our FeVL and Evaraa models, offering convenience and quality.",
     image: "/images/careers/charging.png",
+    link: "/find-us",
   },
   {
     title: "Premium Dining Experience",
     description:
       "Join us in providing a unique dining and charging experience in urban areas, catering to eco-conscious professionals",
     image: "/images/careers/dining.png",
+    link: "/our-models",
   },
 ];
 
@@ -60,9 +63,9 @@ export default function CareerHero() {
                       {item.description}
                     </p>
                   </div>
-                  <button className="mt-2 text-[#1E1E1E] text-sm md:text-base inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
+                  <a href={item.link} className="mt-2 text-[#1E1E1E] text-sm md:text-base inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
                     Learn More
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}

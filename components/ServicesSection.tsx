@@ -27,18 +27,21 @@ const ServicesSection = () => {
                 description:
                   "Our extensive network of charging stations ensures you can travel across the country with ease.",
                 image: "/images/NationwideChargingNetwork.png",
+                link: "/find-us",
               },
               {
                 title: "Sustainable Mobility",
                 description:
                   "Committed to reducing carbon emissions by making EV adoption accessible.",
                 image: "/images/SustainableMobility.png",
+                link: "/franchise",
               },
               {
                 title: "Premium Dining Experience",
                 description:
                   "Unique dining and charging experience for eco-conscious urban professionals.",
                 image: "/images/PremiumDiningExperience.png",
+                link: "/our-modes",
               },
             ].map((card, index) => (
               <div key={index} className="flex flex-col gap-4">
@@ -54,9 +57,9 @@ const ServicesSection = () => {
                   {card.title}
                 </h3>
                 <p className="text-gray-600">{card.description}</p>
-                <button className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
+                <a href={card.link} className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
                   Learn More
-                </button>
+                </a>
               </div>
             ))}
           </div>

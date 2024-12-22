@@ -28,12 +28,12 @@ const HeroSection = () => {
             network. Experience the convenience of FeVL and Evaraa models.
           </p>
           <div className="flex flex-row items-center gap-4 md:gap-6 py-8">
-            <button className="w-fit px-6 md:px-8 py-3 md:py-4 bg-white text-black rounded hover:bg-gray-100 transition">
+            <a href="/about-us" className="w-fit px-6 md:px-8 py-3 md:py-4 bg-white text-black rounded hover:bg-gray-100 transition">
               Find a Station
-            </button>
-            <button className="w-fit px-6 md:px-8 py-3 md:py-4 border-2 border-white text-white rounded hover:bg-white hover:text-black transition">
+            </a>
+            <a href="/franchise" className="w-fit px-6 md:px-8 py-3 md:py-4 border-2 border-white text-white rounded hover:bg-white hover:text-black transition">
               Explore Franchise
-            </button>
+            </a>
           </div>
         </div>
       </div>

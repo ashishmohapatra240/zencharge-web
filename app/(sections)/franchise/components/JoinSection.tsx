@@ -13,12 +13,12 @@ export default function JoinSection() {
           charging in India.
         </p>
         <div className="flex flex-row justify-center items-center gap-4 md:gap-6">
-          <button className="w-fit px-6 md:px-8 py-3 md:py-4 bg-[#2D3E50] text-white rounded hover:bg-[#1E2A3B] transition">
+          <a href="/careers" className="w-fit px-6 md:px-8 py-3 md:py-4 bg-[#2D3E50] text-white rounded hover:bg-[#1E2A3B] transition">
             Start Your Journey
-          </button>
-          <button className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
+          </a>
+          <a href="/our-models" className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </Container>

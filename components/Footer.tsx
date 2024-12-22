@@ -24,20 +24,20 @@ const Footer = () => {
           </div>
 
           <nav className="flex flex-wrap justify-center gap-6 md:gap-8 text-[#1E1E1E] text-sm md:text-base font-montserrat">
-            <a href="#about" className="hover:underline">
+            <a href="/about-us" className="hover:underline">
               About Us
             </a>
-            <a href="#model" className="hover:underline">
+            <a href="/our-models" className="hover:underline">
               Our Model
             </a>
-            <a href="#services" className="hover:underline">
-              Services
+            <a href="/franchise" className="hover:underline">
+              Franchise
             </a>
-            <a href="#team" className="hover:underline">
-              Our Team
+            <a href="/find-us" className="hover:underline">
+              Find Us
             </a>
-            <a href="#contact" className="hover:underline">
-              Contact Us
+            <a href="/careers" className="hover:underline">
+              Careers
             </a>
           </nav>
 

@@ -45,18 +45,21 @@ const NetworkSection = () => {
                   description:
                     "Fast, efficient stops at strategic points along highways, offering quick charging and essential amenities.",
                   image: "/images/FeVLChargingStations.png",
+                  link: "/our-models",
                 },
                 {
                   title: "Evaraa Premium Dining",
                   description:
                     "Luxury dining spaces integrated with charging facilities, perfect for urban professionals.",
                   image: "/images/EvaraaPremiumDining.png",
+                  link: "/our-models",
                 },
                 {
                   title: "FeVL Roadside Cafe",
                   description:
                     "Experience the convenience of clean restrooms, quality food, and efficient charging in one location.",
                   image: "/images/FeVLRoadsideCafe.png",
+                  link: "/our-models",
                 },
               ].map((item, index) => (
                 <div key={index} className="flex flex-col gap-6">
@@ -72,9 +75,9 @@ const NetworkSection = () => {
                     {item.title}
                   </h3>
                   <p className="text-gray-600">{item.description}</p>
-                  <button className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
+                  <a href={item.link} className="mt-2 text-[#1E1E1E] inline-block w-fit text-base border-2 rounded hover:shadow-md py-4 px-6">
                     Learn More
-                  </button>
+                  </a>
                 </div>
               ))}
             </div>
