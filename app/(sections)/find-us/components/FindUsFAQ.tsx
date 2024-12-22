@@ -29,12 +29,12 @@ export default function FindUsFAQ() {
   };
 
   return (
-    <div className="space-y-6 md:space-y-8 px-4 md:px-0">
-      <div>
-        <h2 className="text-[32px] md:text-[47px] font-bold mb-3 md:mb-5 tracking-tight leading-tight">
+    <div className="space-y-8 md:space-y-10 px-4 md:px-0 flex flex-col md:flex-row justify-between mx-auto md:mx-36 my-6 md:my-10">
+      <div className="flex-1">
+        <h2 className="text-[32px] md:text-[48px] font-bold mb-4 md:mb-6 tracking-tight leading-tight">
           Questions?
         </h2>
-        <p className="text-base md:text-lg mb-6 md:mb-8 leading-relaxed">
+        <p className="text-base md:text-lg mb-8 leading-relaxed max-w-[95%]">
           Explore our frequently asked questions to learn more about our EV
           charging services and how we can enhance your travel experience.
         </p>
@@ -42,12 +42,11 @@ export default function FindUsFAQ() {
           Learn More
         </button>
       </div>
-
-      <div className="space-y-3 md:space-y-4">
+      <div className="flex-1 space-y-4 md:space-y-6">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border-b border-black pb-3 md:pb-4 cursor-pointer"
+            className="border-b border-black pb-4 cursor-pointer"
             onClick={() => toggleFAQ(index)}
           >
             <div className="flex justify-between items-center gap-4">
@@ -61,7 +60,7 @@ export default function FindUsFAQ() {
               />
             </div>
             {openIndex === index && (
-              <div className="mt-3 md:mt-4 text-base md:text-lg text-gray-700 leading-relaxed">
+              <div className="mt-4 text-base md:text-lg text-gray-700 leading-relaxed">
                 {faq.answer}
               </div>
             )}
